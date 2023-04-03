@@ -79,6 +79,10 @@ section div ul li {
   background-color: #DEE2E6;
 }
 
+.lista-curio li {
+  border-color: #ADB5BD;
+}
+
 footer {
   background-color: #ADB5BD;
 }

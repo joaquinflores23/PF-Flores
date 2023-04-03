@@ -3,7 +3,7 @@ section{
         ul{
             li{
                 color: map-get($map: $listas, $key: color-texto);
-                text-align: map-get($map: $listas, $key: aling-texto)
+                text-align: map-get($map: $listas, $key: aling-texto);
             }
         }
     }
@@ -33,4 +33,10 @@ section{
 
 .boton-contacto{
     @extend %boton-form;
+}
+
+.lista-curio{
+    li{
+        border-color: $bgc-header-footer;
+    }
 }
